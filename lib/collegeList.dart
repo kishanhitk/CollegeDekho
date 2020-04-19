@@ -15,7 +15,11 @@ class _CollegeListState extends State<CollegeList> {
 
     return colleges.isEmpty
         ? CircularProgressIndicator()
-        : ListView.builder(
+        : ListView.separated(
+            separatorBuilder: (context, index) => Divider(
+              color: Colors.grey,
+              thickness: 0.3,
+            ),
             itemCount: colleges.length,
             itemBuilder: (context, index) {
               return InkWell(
@@ -35,30 +39,21 @@ class _CollegeListState extends State<CollegeList> {
                         ),
                       ));
                 },
-                child: Padding(
-                  padding:
-                      const EdgeInsets.symmetric(vertical: 20.0, horizontal: 8),
-                  child: Column(
-                    children: <Widget>[
-                      ListTile(
-                        title: Text(colleges[index].name),
-                        subtitle: Text(colleges[index].location),
-                        leading: Container(
-                            height: 130,
-                            width: 130,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(5),
-                              child: Image.network(
-                                colleges[index].imgUrl,
-                                fit: BoxFit.cover,
-                              ),
-                            )),
+                child: ListTile(
+                  contentPadding:
+                      EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+                  title: Text(colleges[index].name),
+                  subtitle: Text(colleges[index].location),
+                  leading: Container(
+                    height: 200,
+                    width: 140,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(5),
+                      child: Image.network(
+                        colleges[index].imgUrl,
+                        fit: BoxFit.cover,
                       ),
-                      Divider(
-                        thickness: 1,
-                        height: 10,
-                      )
-                    ],
+                    ),
                   ),
                 ),
               );
