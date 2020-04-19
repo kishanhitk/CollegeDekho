@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "413012901603",
+    "firebase_url": "https://collegedekho-dd01e.firebaseio.com",
+    "project_id": "collegedekho-dd01e",
+    "storage_bucket": "collegedekho-dd01e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413012901603:android:af4a378ebd1d79cee58fd6",
+        "android_client_info": {
+          "package_name": "com.example.collegeDekho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413012901603-3hjj1ne7e0n76plvu0vdls4ap1467r6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegeDekho",
+            "certificate_hash": "b530694b35f64bd7a958cb0e355f4a89c65e4ef1"
+          }
+        },
+        {
+          "client_id": "413012901603-1acq02peucrp536e382i19p06ng6bs19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-MLBNsawVQ98rBU8bsZUSDb0bl7moHS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413012901603-1acq02peucrp536e382i19p06ng6bs19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413012901603:android:3ee75c0039f73e41e58fd6",
+        "android_client_info": {
+          "package_name": "com.example.college_dekho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413012901603-1acq02peucrp536e382i19p06ng6bs19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-MLBNsawVQ98rBU8bsZUSDb0bl7moHS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413012901603-1acq02peucrp536e382i19p06ng6bs19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413012901603:android:f65f7204996862d8e58fd6",
+        "android_client_info": {
+          "package_name": "com.example.databaseMaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413012901603-1acq02peucrp536e382i19p06ng6bs19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-MLBNsawVQ98rBU8bsZUSDb0bl7moHS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413012901603-1acq02peucrp536e382i19p06ng6bs19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
